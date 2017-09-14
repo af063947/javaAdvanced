@@ -8,11 +8,11 @@ public class workingWithArrays {
 		int aLen=myArray.length;  //to find the length of the array
 		
 		System.out.println("Before Swapping:2,5,3,8,6,9 ");
-		for(int i=0; i<aLen/2; i++) {
+		for(int j=0; j<aLen/2; j++) {
 			
-			int temp=myArray[i];
-			myArray[i]=myArray[aLen-1-i];
-			myArray[aLen-1-i]=temp;
+			int temp=myArray[j];
+			myArray[j]=myArray[aLen-1-j];
+			myArray[aLen-1-j]=temp;
 		}// end of for loop
 		
 		System.out.print("After Swapping: ");
